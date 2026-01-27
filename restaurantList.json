@@ -1,0 +1,101 @@
+{
+  "name": "restaurant name Lists",
+  "data": [
+    {
+      "id": 1,
+      "resNamme": "Meghna Restaurant",
+      "foodItem": "Biryani, Mughlai, Khulna",
+      "rating": 4.4,
+      "deliveryTime": "38",
+      "imageId": "1484723091739-30a097e8f929"
+    },
+    {
+      "id": 2,
+      "resNamme": "Sultans Dine",
+      "foodItem": "Kacchi Biryani, Borhani",
+      "rating": 4.6,
+      "deliveryTime": "30",
+      "imageId": "1565958011703-44f9829ba187"
+    },
+    {
+      "id": 3,
+      "resNamme": "Star Kabab",
+      "foodItem": "Kababs, Grill, Tandoori",
+      "rating": 4.2,
+      "deliveryTime": "40",
+      "imageId": "1544025162-d76694265947"
+    },
+    {
+      "id": 4,
+      "resNamme": "Chillox",
+      "foodItem": "Burger, Fast Food",
+      "rating": 4.5,
+      "deliveryTime": "25",
+      "imageId": "1504674900247-0877df9cc836"
+    },
+    {
+      "id": 5,
+      "resNamme": "Pizza Burg",
+      "foodItem": "Pizza, Pasta, Italian",
+      "rating": 4.1,
+      "deliveryTime": "35",
+      "imageId": "1550547660-d9450f859349"
+    },
+    {
+      "id": 6,
+      "resNamme": "Kabab King",
+      "foodItem": "Seekh Kabab, BBQ, Grill",
+      "rating": 4.3,
+      "deliveryTime": "45",
+      "imageId": "1529692236671-f1f6cf9683ba"
+    },
+    {
+      "id": 7,
+      "resNamme": "Burger Lab",
+      "foodItem": "Burger, Fries, Drinks",
+      "rating": 4.0,
+      "deliveryTime": "28",
+      "imageId": "1550317138-10000687a72b"
+    },
+    {
+      "id": 8,
+      "resNamme": "Tandoori Flames",
+      "foodItem": "Tandoori Chicken, Naan",
+      "rating": 4.7,
+      "deliveryTime": "32",
+      "imageId": ""
+    },
+    {
+      "id": 9,
+      "resNamme": "Foodies Hub",
+      "foodItem": "Chinese, Thai, Asian",
+      "rating": 4.1,
+      "deliveryTime": "42",
+      "imageId": "1544025162-d76694265947"
+    },
+    {
+      "id": 10,
+      "resNamme": "Royal Curry House",
+      "foodItem": "Indian, Curry, Rice",
+      "rating": 4.6,
+      "deliveryTime": "34",
+      "imageId": ""
+    },
+    {
+      "id": 11,
+      "resNamme": "Pizza Express",
+      "foodItem": "Pizza, Cheese, Italian",
+      "rating": 4.2,
+      "deliveryTime": "29",
+      "imageId": "1482049016688-2d3e1b311543"
+    },
+    {
+      "id": 12,
+      "resNamme": "Spice Route",
+      "foodItem": "South Indian, Dosa, Idli",
+      "rating": 4.5,
+      "deliveryTime": "36",
+      "imageId": "1550317138-10000687a72b"
+    }
+  ]
+}
