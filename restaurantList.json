@@ -96,6 +96,60 @@
       "rating": 4.5,
       "deliveryTime": "36",
       "imageId": "1550317138-10000687a72b"
-    }
+    },  {
+      "id": 13,
+      "resNamme": "Cafe Delight",
+      "foodItem": "Coffee, Snacks, Desserts",
+      "rating": 4.3,
+      "deliveryTime": "20",
+      "imageId": "1504674900247-0877df9cc836"
+    },
+    {
+  "id": 14,
+  "resNamme": "Hot Wings",
+  "foodItem": "Fried Chicken, Wings",
+  "rating": 4.4,
+  "deliveryTime": "26",
+  "imageId": "1550547660-d9450f859349"
+},
+    {
+  "id": 15,
+  "resNamme": "Grill Master",
+  "foodItem": "Grill, BBQ, Steak",
+  "rating": 4.5,
+  "deliveryTime": "44",
+  "imageId": "1529692236671-f1f6cf9683ba"
+},
+    {
+  "id": 16,
+  "resNamme": "Cafe Mocha",
+  "foodItem": "Coffee, Desserts",
+  "rating": 4.1,
+  "deliveryTime": "18",
+  "imageId": "1504674900247-0877df9cc836"
+},
+    {
+  "id": 17,
+  "resNamme": "Burger House",
+  "foodItem": "Burger, Fast Food",
+  "rating": 4.2,
+  "deliveryTime": "22",
+  "imageId": "1550317138-10000687a72b"
+},
+    {
+  "id": 18,
+  "resNamme": "Chinese Express",
+  "foodItem": "Chinese, Noodles, Fried Rice",
+  "rating": 4.3,
+  "deliveryTime": "35",
+  "imageId": "1585032226651-759b368d7246"
+},{
+  "id": 19,
+  "resNamme": "Tasty Bites",
+  "foodItem": "Snacks, Rolls, Sandwich",
+  "rating": 4.0,
+  "deliveryTime": "24",
+  "imageId": "1540189549336-e6e99c3679fe"
+}
   ]
 }
