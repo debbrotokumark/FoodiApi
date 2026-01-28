@@ -1,0 +1,69 @@
+{ 
+  "creator":"Debbroto Kumar Karmokar",
+  "creatorDetails":{
+      "id": 07,
+      "email": "debkk10@gmail.com",
+      "phone": "+88017xxxxxxxx",
+      "age": 20,
+      "role": "Admin",
+      "photo": "https://avatars.githubusercontent.com/u/136155528?v=4"
+  },
+  
+  
+  "users": [
+    {
+      "id": 1,
+      "name": "Suham",
+      "email": "Suham@gmail.com",
+      "phone": "+8801712345678",
+      "age": 25,
+      "role": "User",
+      "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Riya Saha",
+      "email": "riya@gmail.com",
+      "phone": "+8801812345678",
+      "age": 22,
+      "role": "User",
+      "photo": "https://randomuser.me/api/portraits/women/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Arif Hossain",
+      "email": "arif@gmail.com",
+      "phone": "+8801912345678",
+      "age": 28,
+      "role": "Manager",
+      "photo": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Nusrat Jahan",
+      "email": "nusrat@gmail.com",
+      "phone": "+8801612345678",
+      "age": 24,
+      "role": "User",
+      "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sabbir Ahmed",
+      "email": "sabbir@gmail.com",
+      "phone": "+8801512345678",
+      "age": 30,
+      "role": "Support",
+      "photo": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Mim Akter",
+      "email": "mim@gmail.com",
+      "phone": "+8801412345678",
+      "age": 21,
+      "role": "User",
+      "photo": "https://randomuser.me/api/portraits/women/6.jpg"
+    }
+  ]
+}
