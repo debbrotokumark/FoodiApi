@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "message": "Profile data loaded successfully",
+  "data": {
+    "id": 1,
+    "fullName": "Debbroto Kumar Karmokar",
+    "username": "debkk10",
+    "email": "debkk10@gmail.com",
+    "phone": "+8801745532992",
+    "address": "Khulna,Dhaka, Bangladesh",
+    "avatar": "https://avatars.githubusercontent.com/u/136155528?v=4",
+    "role": "user",
+    "verified": true,
+    "createdAt": "2025-01-10T10:30:00Z",
+    "updatedAt": "2025-01-20T14:15:00Z"
+  }
+}
