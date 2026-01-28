@@ -1,15 +1,13 @@
 { 
   "creator":"Debbroto Kumar Karmokar",
   "creatorDetails":{
-      "id": 07,
+      "id": 7,
       "email": "debkk10@gmail.com",
       "phone": "+88017xxxxxxxx",
       "age": 20,
       "role": "Admin",
       "photo": "https://avatars.githubusercontent.com/u/136155528?v=4"
   },
-  
-  
   "users": [
     {
       "id": 1,
