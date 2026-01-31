@@ -1,0 +1,631 @@
+{
+  "name": "restaurant Lists",
+  "currency": "BDT",
+  "data": [
+    {
+      "id": 1,
+      "sponsor": false,
+      "resName": "Meghna Restaurant",
+      "foodItem": "Biryani, Mughlai, Khulna",
+      "rating": 4.4,
+      "deliveryTime": "38",
+      "imageId": "1484723091739-30a097e8f929",
+      "address": "Khulna Sadar, Khulna",
+      "phone": "+8801700000001",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": {
+        "open": "10:00",
+        "close": "23:00"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "1-1",
+              "name": "Kacchi Biryani (Full)",
+              "price": 320,
+              "availableFrom": "11:00",
+              "availableTo": "22:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-2",
+              "name": "Chicken Biryani",
+              "price": 240,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-3",
+              "name": "Borhani",
+              "price": 60,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-4",
+              "name": "Firni",
+              "price": 90,
+              "availableFrom": "12:00",
+              "availableTo": "22:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "1-1",
+              "name": "Kacchi Biryani (Full)",
+              "price": 320,
+              "availableFrom": "11:00",
+              "availableTo": "22:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-2",
+              "name": "Chicken Biryani",
+              "price": 240,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-3",
+              "name": "Borhani",
+              "price": 60,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-4",
+              "name": "Firni",
+              "price": 90,
+              "availableFrom": "12:00",
+              "availableTo": "22:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-3",
+          "type": "NEW_ITEM",
+          "title": "New Items",
+          "products": [
+            {
+              "pid": "1-1",
+              "name": "Kacchi Biryani (Full)",
+              "price": 320,
+              "availableFrom": "11:00",
+              "availableTo": "22:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-2",
+              "name": "Chicken Biryani",
+              "price": 240,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-3",
+              "name": "Borhani",
+              "price": 60,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-4",
+              "name": "Firni",
+              "price": 90,
+              "availableFrom": "12:00",
+              "availableTo": "22:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-4",
+          "type": "SPECIALS",
+          "title": "Chef\u2019s Specials",
+          "products": [
+            {
+              "pid": "1-1",
+              "name": "Kacchi Biryani (Full)",
+              "price": 320,
+              "availableFrom": "11:00",
+              "availableTo": "22:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-2",
+              "name": "Chicken Biryani",
+              "price": 240,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-3",
+              "name": "Borhani",
+              "price": 60,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "1-4",
+              "name": "Firni",
+              "price": 90,
+              "availableFrom": "12:00",
+              "availableTo": "22:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "sponsor": true,
+      "resName": "Sultans Dine",
+      "foodItem": "Kacchi Biryani, Borhani",
+      "rating": 4.6,
+      "deliveryTime": "30",
+      "imageId": "1565958011703-44f9829ba187",
+      "address": "Dhanmondi, Dhaka",
+      "phone": "+8801700000002",
+      "minOrder": 249,
+      "deliveryFee": 59,
+      "openingHours": {
+        "open": "11:00",
+        "close": "23:30"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "2-1",
+              "name": "Kacchi Biryani (Bashmati)",
+              "price": 349,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "2-2",
+              "name": "Mutton Rezala",
+              "price": 280,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "2-3",
+              "name": "Borhani (Glass)",
+              "price": 70,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "2-4",
+              "name": "Jorda",
+              "price": 120,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "sponsor": false,
+      "resName": "Star Kabab",
+      "foodItem": "Kababs, Grill, Tandoori",
+      "rating": 4.2,
+      "deliveryTime": "40",
+      "imageId": "1544025162-d76694265947",
+      "address": "Mirpur, Dhaka",
+      "phone": "+8801700000003",
+      "minOrder": 199,
+      "deliveryFee": 39,
+      "openingHours": {
+        "open": "12:00",
+        "close": "00:00"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "3-1",
+              "name": "Seekh Kabab (2 pcs)",
+              "price": 180,
+              "availableFrom": "12:00",
+              "availableTo": "23:59",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "3-2",
+              "name": "Chicken Grill",
+              "price": 260,
+              "availableFrom": "12:00",
+              "availableTo": "23:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "3-3",
+              "name": "Tandoori Chicken (Half)",
+              "price": 290,
+              "availableFrom": "15:00",
+              "availableTo": "23:59",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "3-4",
+              "name": "Naan",
+              "price": 30,
+              "availableFrom": "12:00",
+              "availableTo": "23:59",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "sponsor": true,
+      "resName": "Chillox",
+      "foodItem": "Burger, Fast Food",
+      "rating": 4.5,
+      "deliveryTime": "25",
+      "imageId": "1504674900247-0877df9cc836",
+      "address": "Banani, Dhaka",
+      "phone": "+8801700000004",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": {
+        "open": "10:30",
+        "close": "01:00"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "4-1",
+              "name": "Beef Burger",
+              "price": 260,
+              "availableFrom": "10:30",
+              "availableTo": "01:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "4-2",
+              "name": "Chicken Burger",
+              "price": 220,
+              "availableFrom": "10:30",
+              "availableTo": "01:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "4-3",
+              "name": "French Fries",
+              "price": 120,
+              "availableFrom": "10:30",
+              "availableTo": "01:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "4-4",
+              "name": "Cold Coffee",
+              "price": 160,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "sponsor": false,
+      "resName": "Pizza Burg",
+      "foodItem": "Pizza, Pasta, Italian",
+      "rating": 4.1,
+      "deliveryTime": "35",
+      "imageId": "1550547660-d9450f859349",
+      "address": "Uttara, Dhaka",
+      "phone": "+8801700000005",
+      "minOrder": 299,
+      "deliveryFee": 59,
+      "openingHours": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "5-1",
+              "name": "Margherita Pizza (12\")",
+              "price": 499,
+              "availableFrom": "11:00",
+              "availableTo": "22:45",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "5-2",
+              "name": "Chicken Sausage Pizza (12\")",
+              "price": 599,
+              "availableFrom": "11:00",
+              "availableTo": "22:45",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "5-3",
+              "name": "White Sauce Pasta",
+              "price": 380,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "5-4",
+              "name": "Garlic Bread",
+              "price": 160,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "sponsor": false,
+      "resName": "Kabab King",
+      "foodItem": "Seekh Kabab, BBQ, Grill",
+      "rating": 4.3,
+      "deliveryTime": "45",
+      "imageId": "1529692236671-f1f6cf9683ba",
+      "address": "Mohammadpur, Dhaka",
+      "phone": "+8801700000006",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": {
+        "open": "12:00",
+        "close": "00:30"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "6-1",
+              "name": "BBQ Chicken (Quarter)",
+              "price": 190,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "6-2",
+              "name": "Beef Boti Kabab",
+              "price": 240,
+              "availableFrom": "15:00",
+              "availableTo": "00:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "6-3",
+              "name": "Paratha",
+              "price": 25,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "6-4",
+              "name": "Salad",
+              "price": 40,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "sponsor": false,
+      "resName": "Burger Lab",
+      "foodItem": "Burger, Fries, Drinks",
+      "rating": 4.0,
+      "deliveryTime": "28",
+      "imageId": "1550317138-10000687a72b",
+      "address": "Bashundhara, Dhaka",
+      "phone": "+8801700000007",
+      "minOrder": 199,
+      "deliveryFee": 39,
+      "openingHours": {
+        "open": "11:00",
+        "close": "00:00"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "7-1",
+              "name": "Smash Burger",
+              "price": 280,
+              "availableFrom": "11:00",
+              "availableTo": "00:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "7-2",
+              "name": "Cheese Fries",
+              "price": 170,
+              "availableFrom": "11:00",
+              "availableTo": "00:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "7-3",
+              "name": "Chicken Nuggets (6 pcs)",
+              "price": 160,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "7-4",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "11:00",
+              "availableTo": "00:00",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "sponsor": true,
+      "resName": "Tandoori Flames",
+      "foodItem": "Tandoori Chicken, Naan",
+      "rating": 4.7,
+      "deliveryTime": "32",
+      "imageId": "",
+      "address": "Gulshan, Dhaka",
+      "phone": "+8801700000008",
+      "minOrder": 249,
+      "deliveryFee": 59,
+      "openingHours": {
+        "open": "12:30",
+        "close": "23:59"
+      },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "8-1",
+              "name": "Tandoori Chicken (Full)",
+              "price": 520,
+              "availableFrom": "12:30",
+              "availableTo": "23:30",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "8-2",
+              "name": "Butter Naan",
+              "price": 35,
+              "availableFrom": "12:30",
+              "availableTo": "23:59",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "8-3",
+              "name": "Chicken Tikku",
+              "price": 260,
+              "availableFrom": "15:00",
+              "availableTo": "23:59",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            },
+            {
+              "pid": "8-4",
+              "name": "Mint Sauce",
+              "price": 30,
+              "availableFrom": "12:30",
+              "availableTo": "23:59",
+              "imageLink": "https://picsum.photos/200/300",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
