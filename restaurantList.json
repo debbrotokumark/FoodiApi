@@ -81,8 +81,306 @@
         { "pid": "4-3", "name": "French Fries", "price": 120, "availableFrom": "10:30", "availableTo": "01:00", "inStock": true },
         { "pid": "4-4", "name": "Cold Coffee", "price": 160, "availableFrom": "12:00", "availableTo": "00:30", "inStock": true }
       ]
+    },
+    {
+      "id": 5,
+      "sponsor": false,
+      "resNamme": "Pizza Burg",
+      "foodItem": "Pizza, Pasta, Italian",
+      "rating": 4.1,
+      "deliveryTime": "35",
+      "imageId": "1550547660-d9450f859349",
+      "address": "Uttara, Dhaka",
+      "phone": "+8801700000005",
+      "minOrder": 299,
+      "deliveryFee": 59,
+      "openingHours": { "open": "11:00", "close": "23:00" },
+      "products": [
+        { "pid": "5-1", "name": "Margherita Pizza (12\")", "price": 499, "availableFrom": "11:00", "availableTo": "22:45", "inStock": true },
+        { "pid": "5-2", "name": "Chicken Sausage Pizza (12\")", "price": 599, "availableFrom": "11:00", "availableTo": "22:45", "inStock": true },
+        { "pid": "5-3", "name": "White Sauce Pasta", "price": 380, "availableFrom": "12:00", "availableTo": "22:30", "inStock": true },
+        { "pid": "5-4", "name": "Garlic Bread", "price": 160, "availableFrom": "11:00", "availableTo": "23:00", "inStock": true }
+      ]
+    },
+    {
+      "id": 6,
+      "sponsor": false,
+      "resNamme": "Kabab King",
+      "foodItem": "Seekh Kabab, BBQ, Grill",
+      "rating": 4.3,
+      "deliveryTime": "45",
+      "imageId": "1529692236671-f1f6cf9683ba",
+      "address": "Mohammadpur, Dhaka",
+      "phone": "+8801700000006",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": { "open": "12:00", "close": "00:30" },
+      "products": [
+        { "pid": "6-1", "name": "BBQ Chicken (Quarter)", "price": 190, "availableFrom": "12:00", "availableTo": "00:30", "inStock": true },
+        { "pid": "6-2", "name": "Beef Boti Kabab", "price": 240, "availableFrom": "15:00", "availableTo": "00:00", "inStock": true },
+        { "pid": "6-3", "name": "Paratha", "price": 25, "availableFrom": "12:00", "availableTo": "00:30", "inStock": true },
+        { "pid": "6-4", "name": "Salad", "price": 40, "availableFrom": "12:00", "availableTo": "00:30", "inStock": true }
+      ]
+    },
+    {
+      "id": 7,
+      "sponsor": false,
+      "resNamme": "Burger Lab",
+      "foodItem": "Burger, Fries, Drinks",
+      "rating": 4.0,
+      "deliveryTime": "28",
+      "imageId": "1550317138-10000687a72b",
+      "address": "Bashundhara, Dhaka",
+      "phone": "+8801700000007",
+      "minOrder": 199,
+      "deliveryFee": 39,
+      "openingHours": { "open": "11:00", "close": "00:00" },
+      "products": [
+        { "pid": "7-1", "name": "Smash Burger", "price": 280, "availableFrom": "11:00", "availableTo": "00:00", "inStock": true },
+        { "pid": "7-2", "name": "Cheese Fries", "price": 170, "availableFrom": "11:00", "availableTo": "00:00", "inStock": true },
+        { "pid": "7-3", "name": "Chicken Nuggets (6 pcs)", "price": 160, "availableFrom": "11:00", "availableTo": "23:30", "inStock": true },
+        { "pid": "7-4", "name": "Soft Drink", "price": 40, "availableFrom": "11:00", "availableTo": "00:00", "inStock": true }
+      ]
+    },
+    {
+      "id": 8,
+      "sponsor": true,
+      "resNamme": "Tandoori Flames",
+      "foodItem": "Tandoori Chicken, Naan",
+      "rating": 4.7,
+      "deliveryTime": "32",
+      "imageId": "",
+      "address": "Gulshan, Dhaka",
+      "phone": "+8801700000008",
+      "minOrder": 249,
+      "deliveryFee": 59,
+      "openingHours": { "open": "12:30", "close": "23:59" },
+      "products": [
+        { "pid": "8-1", "name": "Tandoori Chicken (Full)", "price": 520, "availableFrom": "12:30", "availableTo": "23:30", "inStock": true },
+        { "pid": "8-2", "name": "Butter Naan", "price": 35, "availableFrom": "12:30", "availableTo": "23:59", "inStock": true },
+        { "pid": "8-3", "name": "Chicken Tikku", "price": 260, "availableFrom": "15:00", "availableTo": "23:59", "inStock": true },
+        { "pid": "8-4", "name": "Mint Sauce", "price": 30, "availableFrom": "12:30", "availableTo": "23:59", "inStock": true }
+      ]
+    },
+    {
+      "id": 9,
+      "sponsor": false,
+      "resNamme": "Foodies Hub",
+      "foodItem": "Chinese, Thai, Asian",
+      "rating": 4.1,
+      "deliveryTime": "42",
+      "imageId": "1544025162-d76694265947",
+      "address": "Rampura, Dhaka",
+      "phone": "+8801700000009",
+      "minOrder": 299,
+      "deliveryFee": 49,
+      "openingHours": { "open": "11:30", "close": "23:00" },
+      "products": [
+        { "pid": "9-1", "name": "Chicken Fried Rice", "price": 260, "availableFrom": "11:30", "availableTo": "23:00", "inStock": true },
+        { "pid": "9-2", "name": "Thai Soup", "price": 220, "availableFrom": "12:00", "availableTo": "22:30", "inStock": true },
+        { "pid": "9-3", "name": "Chowmein", "price": 240, "availableFrom": "11:30", "availableTo": "23:00", "inStock": true },
+        { "pid": "9-4", "name": "Chicken Manchurian", "price": 280, "availableFrom": "12:00", "availableTo": "22:30", "inStock": true }
+      ]
+    },
+    {
+      "id": 10,
+      "sponsor": true,
+      "resNamme": "Royal Curry House",
+      "foodItem": "Indian, Curry, Rice",
+      "rating": 4.6,
+      "deliveryTime": "34",
+      "imageId": "",
+      "address": "Farmgate, Dhaka",
+      "phone": "+8801700000010",
+      "minOrder": 249,
+      "deliveryFee": 49,
+      "openingHours": { "open": "10:00", "close": "22:30" },
+      "products": [
+        { "pid": "10-1", "name": "Butter Chicken", "price": 340, "availableFrom": "12:00", "availableTo": "22:00", "inStock": true },
+        { "pid": "10-2", "name": "Dal Tadka", "price": 180, "availableFrom": "10:00", "availableTo": "22:30", "inStock": true },
+        { "pid": "10-3", "name": "Plain Rice", "price": 70, "availableFrom": "10:00", "availableTo": "22:30", "inStock": true },
+        { "pid": "10-4", "name": "Roti", "price": 20, "availableFrom": "10:00", "availableTo": "22:30", "inStock": true }
+      ]
+    },
+    {
+      "id": 11,
+      "sponsor": false,
+      "resNamme": "Pizza Express",
+      "foodItem": "Pizza, Cheese, Italian",
+      "rating": 4.2,
+      "deliveryTime": "29",
+      "imageId": "1482049016688-2d3e1b311543",
+      "address": "Badda, Dhaka",
+      "phone": "+8801700000011",
+      "minOrder": 299,
+      "deliveryFee": 59,
+      "openingHours": { "open": "11:00", "close": "23:30" },
+      "products": [
+        { "pid": "11-1", "name": "Pepperoni Pizza (12\")", "price": 690, "availableFrom": "11:00", "availableTo": "23:00", "inStock": true },
+        { "pid": "11-2", "name": "BBQ Chicken Pizza (12\")", "price": 650, "availableFrom": "11:00", "availableTo": "23:00", "inStock": true },
+        { "pid": "11-3", "name": "Cheesy Garlic Bread", "price": 190, "availableFrom": "11:00", "availableTo": "23:30", "inStock": true },
+        { "pid": "11-4", "name": "Pasta Arrabiata", "price": 420, "availableFrom": "12:00", "availableTo": "22:30", "inStock": true }
+      ]
+    },
+    {
+      "id": 12,
+      "sponsor": true,
+      "resNamme": "Spice Route",
+      "foodItem": "South Indian, Dosa, Idli",
+      "rating": 4.5,
+      "deliveryTime": "36",
+      "imageId": "1550317138-10000687a72b",
+      "address": "Shahbagh, Dhaka",
+      "phone": "+8801700000012",
+      "minOrder": 199,
+      "deliveryFee": 39,
+      "openingHours": { "open": "08:00", "close": "22:00" },
+      "products": [
+        { "pid": "12-1", "name": "Masala Dosa", "price": 220, "availableFrom": "08:00", "availableTo": "21:30", "inStock": true },
+        { "pid": "12-2", "name": "Idli (4 pcs)", "price": 140, "availableFrom": "08:00", "availableTo": "12:00", "inStock": true },
+        { "pid": "12-3", "name": "Vada", "price": 120, "availableFrom": "08:00", "availableTo": "20:00", "inStock": true },
+        { "pid": "12-4", "name": "Filter Coffee", "price": 90, "availableFrom": "08:00", "availableTo": "22:00", "inStock": true }
+      ]
+    },
+    {
+      "id": 13,
+      "sponsor": false,
+      "resNamme": "Cafe Delight",
+      "foodItem": "Coffee, Snacks, Desserts",
+      "rating": 4.3,
+      "deliveryTime": "20",
+      "imageId": "1504674900247-0877df9cc836",
+      "address": "Dhanmondi, Dhaka",
+      "phone": "+8801700000013",
+      "minOrder": 149,
+      "deliveryFee": 29,
+      "openingHours": { "open": "09:00", "close": "22:30" },
+      "products": [
+        { "pid": "13-1", "name": "Cappuccino", "price": 160, "availableFrom": "09:00", "availableTo": "22:30", "inStock": true },
+        { "pid": "13-2", "name": "Chocolate Cake Slice", "price": 140, "availableFrom": "10:00", "availableTo": "22:00", "inStock": true },
+        { "pid": "13-3", "name": "Chicken Sandwich", "price": 180, "availableFrom": "11:00", "availableTo": "21:30", "inStock": true },
+        { "pid": "13-4", "name": "French Toast", "price": 190, "availableFrom": "09:00", "availableTo": "12:00", "inStock": true }
+      ]
+    },
+    {
+      "id": 14,
+      "sponsor": false,
+      "resNamme": "Hot Wings",
+      "foodItem": "Fried Chicken, Wings",
+      "rating": 4.4,
+      "deliveryTime": "26",
+      "imageId": "1550547660-d9450f859349",
+      "address": "Tejgaon, Dhaka",
+      "phone": "+8801700000014",
+      "minOrder": 199,
+      "deliveryFee": 39,
+      "openingHours": { "open": "11:00", "close": "23:59" },
+      "products": [
+        { "pid": "14-1", "name": "Hot Wings (6 pcs)", "price": 260, "availableFrom": "11:00", "availableTo": "23:59", "inStock": true },
+        { "pid": "14-2", "name": "Fried Chicken (2 pcs)", "price": 240, "availableFrom": "11:00", "availableTo": "23:59", "inStock": true },
+        { "pid": "14-3", "name": "Coleslaw", "price": 80, "availableFrom": "11:00", "availableTo": "23:59", "inStock": true },
+        { "pid": "14-4", "name": "Lemonade", "price": 90, "availableFrom": "11:00", "availableTo": "23:59", "inStock": true }
+      ]
+    },
+    {
+      "id": 15,
+      "sponsor": true,
+      "resNamme": "Grill Master",
+      "foodItem": "Grill, BBQ, Steak",
+      "rating": 4.5,
+      "deliveryTime": "44",
+      "imageId": "1529692236671-f1f6cf9683ba",
+      "address": "Gulistan, Dhaka",
+      "phone": "+8801700000015",
+      "minOrder": 299,
+      "deliveryFee": 59,
+      "openingHours": { "open": "12:00", "close": "00:30" },
+      "products": [
+        { "pid": "15-1", "name": "BBQ Platter", "price": 690, "availableFrom": "16:00", "availableTo": "00:30", "inStock": true },
+        { "pid": "15-2", "name": "Grilled Chicken", "price": 320, "availableFrom": "12:00", "availableTo": "00:00", "inStock": true },
+        { "pid": "15-3", "name": "Beef Steak", "price": 790, "availableFrom": "18:00", "availableTo": "00:00", "inStock": true },
+        { "pid": "15-4", "name": "Mashed Potato", "price": 160, "availableFrom": "12:00", "availableTo": "00:30", "inStock": true }
+      ]
+    },
+    {
+      "id": 16,
+      "sponsor": false,
+      "resNamme": "Cafe Mocha",
+      "foodItem": "Coffee, Desserts",
+      "rating": 4.1,
+      "deliveryTime": "18",
+      "imageId": "1504674900247-0877df9cc836",
+      "address": "Uttara, Dhaka",
+      "phone": "+8801700000016",
+      "minOrder": 149,
+      "deliveryFee": 29,
+      "openingHours": { "open": "08:30", "close": "22:00" },
+      "products": [
+        { "pid": "16-1", "name": "Mocha", "price": 180, "availableFrom": "08:30", "availableTo": "22:00", "inStock": true },
+        { "pid": "16-2", "name": "Brownie", "price": 120, "availableFrom": "10:00", "availableTo": "22:00", "inStock": true },
+        { "pid": "16-3", "name": "Iced Latte", "price": 190, "availableFrom": "12:00", "availableTo": "22:00", "inStock": true },
+        { "pid": "16-4", "name": "Cheesecake Slice", "price": 220, "availableFrom": "12:00", "availableTo": "21:30", "inStock": true }
+      ]
+    },
+    {
+      "id": 17,
+      "sponsor": false,
+      "resNamme": "Burger House",
+      "foodItem": "Burger, Fast Food",
+      "rating": 4.2,
+      "deliveryTime": "22",
+      "imageId": "1550317138-10000687a72b",
+      "address": "Kalabagan, Dhaka",
+      "phone": "+8801700000017",
+      "minOrder": 199,
+      "deliveryFee": 39,
+      "openingHours": { "open": "11:00", "close": "23:30" },
+      "products": [
+        { "pid": "17-1", "name": "Classic Beef Burger", "price": 250, "availableFrom": "11:00", "availableTo": "23:30", "inStock": true },
+        { "pid": "17-2", "name": "Chicken Burger", "price": 210, "availableFrom": "11:00", "availableTo": "23:30", "inStock": true },
+        { "pid": "17-3", "name": "Onion Rings", "price": 130, "availableFrom": "11:00", "availableTo": "23:30", "inStock": true },
+        { "pid": "17-4", "name": "Milkshake", "price": 170, "availableFrom": "12:00", "availableTo": "23:00", "inStock": true }
+      ]
+    },
+    {
+      "id": 18,
+      "sponsor": true,
+      "resNamme": "Chinese Express",
+      "foodItem": "Chinese, Noodles, Fried Rice",
+      "rating": 4.3,
+      "deliveryTime": "35",
+      "imageId": "1585032226651-759b368d7246",
+      "address": "Motijheel, Dhaka",
+      "phone": "+8801700000018",
+      "minOrder": 249,
+      "deliveryFee": 49,
+      "openingHours": { "open": "11:00", "close": "22:30" },
+      "products": [
+        { "pid": "18-1", "name": "Special Fried Rice", "price": 280, "availableFrom": "11:00", "availableTo": "22:30", "inStock": true },
+        { "pid": "18-2", "name": "Chicken Chowmein", "price": 260, "availableFrom": "11:00", "availableTo": "22:30", "inStock": true },
+        { "pid": "18-3", "name": "Sweet & Sour Chicken", "price": 320, "availableFrom": "12:00", "availableTo": "22:00", "inStock": true },
+        { "pid": "18-4", "name": "Wonton Soup", "price": 210, "availableFrom": "11:00", "availableTo": "21:30", "inStock": true }
+      ]
+    },
+    {
+      "id": 19,
+      "sponsor": false,
+      "resNamme": "Tasty Bites",
+      "foodItem": "Snacks, Rolls, Sandwich",
+      "rating": 4.0,
+      "deliveryTime": "24",
+      "imageId": "1540189549336-e6e99c3679fe",
+      "address": "Malibagh, Dhaka",
+      "phone": "+8801700000019",
+      "minOrder": 149,
+      "deliveryFee": 29,
+      "openingHours": { "open": "10:00", "close": "22:00" },
+      "products": [
+        { "pid": "19-1", "name": "Chicken Roll", "price": 120, "availableFrom": "10:00", "availableTo": "22:00", "inStock": true },
+        { "pid": "19-2", "name": "Club Sandwich", "price": 220, "availableFrom": "11:00", "availableTo": "21:30", "inStock": true },
+        { "pid": "19-3", "name": "French Fries", "price": 110, "availableFrom": "10:00", "availableTo": "22:00", "inStock": true },
+        { "pid": "19-4", "name": "Cold Drink", "price": 40, "availableFrom": "10:00", "availableTo": "22:00", "inStock": true }
+      ]
     }
-
-    /* 🔽 Remaining restaurants keep SAME pattern 🔽 */
   ]
 }
