@@ -38,5 +38,13 @@ Public mock JSON APIs for React practice projects.
         <a href="https://debbrotokumark.github.io/FoodiApi/profile.json" target="_blank">🔗 View</a>
       </td>
     </tr>
+      <tr>
+      <td>4</td>
+      <td><code>restaurantListPro.json</code></td>
+      <td>Restaurant List Pro (avatar, name, bio)</td>
+      <td align="center">
+        <a href="https://debbrotokumark.github.io/FoodiApi/restaurantListPro.json" target="_blank">🔗 View</a>
+      </td>
+    </tr>
   </tbody>
 </table>
