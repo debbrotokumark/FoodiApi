@@ -9,15 +9,12 @@
       "foodItem": "Biryani, Mughlai, Khulna",
       "rating": 4.4,
       "deliveryTime": "38",
-      "imageId": "1484723091739-30a097e8f929",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-1.jpg",
       "address": "Khulna Sadar, Khulna",
       "phone": "+8801700000001",
       "minOrder": 199,
       "deliveryFee": 49,
-      "openingHours": {
-        "open": "10:00",
-        "close": "23:00"
-      },
+      "openingHours": { "open": "10:00", "close": "23:00" },
       "categories": [
         {
           "id": "cat-1",
@@ -30,8 +27,8 @@
               "price": 320,
               "availableFrom": "11:00",
               "availableTo": "22:30",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": false
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-2.jpg",
+              "inStock": true
             },
             {
               "pid": "1-2",
@@ -39,7 +36,7 @@
               "price": 240,
               "availableFrom": "10:00",
               "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-3.jpg",
               "inStock": true
             },
             {
@@ -48,7 +45,7 @@
               "price": 60,
               "availableFrom": "10:00",
               "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-4.jpg",
               "inStock": true
             },
             {
@@ -57,7 +54,7 @@
               "price": 90,
               "availableFrom": "12:00",
               "availableTo": "22:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-5.jpg",
               "inStock": true
             }
           ]
@@ -68,125 +65,39 @@
           "title": "Popular",
           "products": [
             {
-              "pid": "1-1",
-              "name": "Kacchi Biryani (Full)",
-              "price": 320,
-              "availableFrom": "11:00",
+              "pid": "1-5",
+              "name": "Mutton Biryani",
+              "price": 360,
+              "availableFrom": "12:00",
+              "availableTo": "22:45",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-6.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "1-6",
+              "name": "Beef Tehari",
+              "price": 210,
+              "availableFrom": "10:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-7.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "1-7",
+              "name": "Chicken Roast",
+              "price": 160,
+              "availableFrom": "12:00",
               "availableTo": "22:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-8.jpg",
               "inStock": false
             },
             {
-              "pid": "1-2",
-              "name": "Chicken Biryani",
-              "price": 240,
+              "pid": "1-8",
+              "name": "Coke (500ml)",
+              "price": 40,
               "availableFrom": "10:00",
               "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            },
-            {
-              "pid": "1-3",
-              "name": "Borhani",
-              "price": 60,
-              "availableFrom": "10:00",
-              "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": false
-            },
-            {
-              "pid": "1-4",
-              "name": "Firni",
-              "price": 90,
-              "availableFrom": "12:00",
-              "availableTo": "22:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            }
-          ]
-        },
-        {
-          "id": "cat-3",
-          "type": "NEW_ITEM",
-          "title": "New Items",
-          "products": [
-            {
-              "pid": "1-1",
-              "name": "Kacchi Biryani (Full)",
-              "price": 320,
-              "availableFrom": "11:00",
-              "availableTo": "22:30",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            },
-            {
-              "pid": "1-2",
-              "name": "Chicken Biryani",
-              "price": 240,
-              "availableFrom": "10:00",
-              "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            },
-            {
-              "pid": "1-3",
-              "name": "Borhani",
-              "price": 60,
-              "availableFrom": "10:00",
-              "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            },
-            {
-              "pid": "1-4",
-              "name": "Firni",
-              "price": 90,
-              "availableFrom": "12:00",
-              "availableTo": "22:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            }
-          ]
-        },
-        {
-          "id": "cat-4",
-          "type": "SPECIALS",
-          "title": "Chef\u2019s Specials",
-          "products": [
-            {
-              "pid": "1-1",
-              "name": "Kacchi Biryani (Full)",
-              "price": 320,
-              "availableFrom": "11:00",
-              "availableTo": "22:30",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            },
-            {
-              "pid": "1-2",
-              "name": "Chicken Biryani",
-              "price": 240,
-              "availableFrom": "10:00",
-              "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": false
-            },
-            {
-              "pid": "1-3",
-              "name": "Borhani",
-              "price": 60,
-              "availableFrom": "10:00",
-              "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
-              "inStock": true
-            },
-            {
-              "pid": "1-4",
-              "name": "Firni",
-              "price": 90,
-              "availableFrom": "12:00",
-              "availableTo": "22:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-9.jpg",
               "inStock": true
             }
           ]
@@ -200,15 +111,12 @@
       "foodItem": "Kacchi Biryani, Borhani",
       "rating": 4.6,
       "deliveryTime": "30",
-      "imageId": "1565958011703-44f9829ba187",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-10.jpg",
       "address": "Dhanmondi, Dhaka",
       "phone": "+8801700000002",
       "minOrder": 249,
       "deliveryFee": 59,
-      "openingHours": {
-        "open": "11:00",
-        "close": "23:30"
-      },
+      "openingHours": { "open": "11:00", "close": "23:30" },
       "categories": [
         {
           "id": "cat-1",
@@ -221,7 +129,7 @@
               "price": 349,
               "availableFrom": "11:00",
               "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-11.jpg",
               "inStock": true
             },
             {
@@ -230,7 +138,7 @@
               "price": 280,
               "availableFrom": "12:00",
               "availableTo": "22:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-12.jpg",
               "inStock": true
             },
             {
@@ -239,7 +147,7 @@
               "price": 70,
               "availableFrom": "11:00",
               "availableTo": "23:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-13.jpg",
               "inStock": false
             },
             {
@@ -248,7 +156,50 @@
               "price": 120,
               "availableFrom": "12:00",
               "availableTo": "22:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-14.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "2-5",
+              "name": "Chicken Roast (Quarter)",
+              "price": 170,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-15.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "2-6",
+              "name": "Egg Korma",
+              "price": 90,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-16.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "2-7",
+              "name": "Salad",
+              "price": 40,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-17.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "2-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-18.jpg",
               "inStock": true
             }
           ]
@@ -262,15 +213,12 @@
       "foodItem": "Kababs, Grill, Tandoori",
       "rating": 4.2,
       "deliveryTime": "40",
-      "imageId": "1544025162-d76694265947",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-19.jpg",
       "address": "Mirpur, Dhaka",
       "phone": "+8801700000003",
       "minOrder": 199,
       "deliveryFee": 39,
-      "openingHours": {
-        "open": "12:00",
-        "close": "00:00"
-      },
+      "openingHours": { "open": "12:00", "close": "00:00" },
       "categories": [
         {
           "id": "cat-1",
@@ -283,7 +231,7 @@
               "price": 180,
               "availableFrom": "12:00",
               "availableTo": "23:59",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-20.jpg",
               "inStock": true
             },
             {
@@ -292,7 +240,7 @@
               "price": 260,
               "availableFrom": "12:00",
               "availableTo": "23:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-21.jpg",
               "inStock": true
             },
             {
@@ -301,7 +249,7 @@
               "price": 290,
               "availableFrom": "15:00",
               "availableTo": "23:59",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-22.jpg",
               "inStock": false
             },
             {
@@ -310,7 +258,50 @@
               "price": 30,
               "availableFrom": "12:00",
               "availableTo": "23:59",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-23.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "3-5",
+              "name": "Beef Boti Kabab",
+              "price": 240,
+              "availableFrom": "15:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-24.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "3-6",
+              "name": "Chicken Shawarma",
+              "price": 190,
+              "availableFrom": "12:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-25.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "3-7",
+              "name": "French Fries",
+              "price": 120,
+              "availableFrom": "12:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-26.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "3-8",
+              "name": "Cold Drinks",
+              "price": 40,
+              "availableFrom": "12:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-27.jpg",
               "inStock": true
             }
           ]
@@ -324,15 +315,12 @@
       "foodItem": "Burger, Fast Food",
       "rating": 4.5,
       "deliveryTime": "25",
-      "imageId": "1504674900247-0877df9cc836",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-28.jpg",
       "address": "Banani, Dhaka",
       "phone": "+8801700000004",
       "minOrder": 199,
       "deliveryFee": 49,
-      "openingHours": {
-        "open": "10:30",
-        "close": "01:00"
-      },
+      "openingHours": { "open": "10:30", "close": "01:00" },
       "categories": [
         {
           "id": "cat-1",
@@ -345,7 +333,7 @@
               "price": 260,
               "availableFrom": "10:30",
               "availableTo": "01:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-29.jpg",
               "inStock": true
             },
             {
@@ -354,7 +342,7 @@
               "price": 220,
               "availableFrom": "10:30",
               "availableTo": "01:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-30.jpg",
               "inStock": true
             },
             {
@@ -363,7 +351,7 @@
               "price": 120,
               "availableFrom": "10:30",
               "availableTo": "01:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-31.jpg",
               "inStock": true
             },
             {
@@ -372,7 +360,50 @@
               "price": 160,
               "availableFrom": "12:00",
               "availableTo": "00:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-32.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "4-5",
+              "name": "Double Beef Burger",
+              "price": 340,
+              "availableFrom": "10:30",
+              "availableTo": "01:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-33.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "4-6",
+              "name": "Chicken Wings (6 pcs)",
+              "price": 260,
+              "availableFrom": "12:00",
+              "availableTo": "01:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-34.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "4-7",
+              "name": "Onion Rings",
+              "price": 140,
+              "availableFrom": "12:00",
+              "availableTo": "01:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-35.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "4-8",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "10:30",
+              "availableTo": "01:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-36.jpg",
               "inStock": true
             }
           ]
@@ -386,15 +417,12 @@
       "foodItem": "Pizza, Pasta, Italian",
       "rating": 4.1,
       "deliveryTime": "35",
-      "imageId": "1550547660-d9450f859349",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-37.jpg",
       "address": "Uttara, Dhaka",
       "phone": "+8801700000005",
       "minOrder": 299,
       "deliveryFee": 59,
-      "openingHours": {
-        "open": "11:00",
-        "close": "23:00"
-      },
+      "openingHours": { "open": "11:00", "close": "23:00" },
       "categories": [
         {
           "id": "cat-1",
@@ -407,7 +435,7 @@
               "price": 499,
               "availableFrom": "11:00",
               "availableTo": "22:45",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-38.jpg",
               "inStock": true
             },
             {
@@ -416,7 +444,7 @@
               "price": 599,
               "availableFrom": "11:00",
               "availableTo": "22:45",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-39.jpg",
               "inStock": true
             },
             {
@@ -425,7 +453,7 @@
               "price": 380,
               "availableFrom": "12:00",
               "availableTo": "22:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-40.jpg",
               "inStock": true
             },
             {
@@ -434,13 +462,57 @@
               "price": 160,
               "availableFrom": "11:00",
               "availableTo": "23:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-41.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "5-5",
+              "name": "Pepperoni Pizza (12\")",
+              "price": 649,
+              "availableFrom": "11:00",
+              "availableTo": "22:45",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-42.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "5-6",
+              "name": "BBQ Chicken Pizza (12\")",
+              "price": 699,
+              "availableFrom": "11:30",
+              "availableTo": "22:45",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-43.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "5-7",
+              "name": "Chocolate Lava Cake",
+              "price": 180,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-44.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "5-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-45.jpg",
               "inStock": true
             }
           ]
         }
       ]
     },
+
     {
       "id": 6,
       "sponsor": false,
@@ -448,15 +520,12 @@
       "foodItem": "Seekh Kabab, BBQ, Grill",
       "rating": 4.3,
       "deliveryTime": "45",
-      "imageId": "1529692236671-f1f6cf9683ba",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-46.jpg",
       "address": "Mohammadpur, Dhaka",
       "phone": "+8801700000006",
       "minOrder": 199,
       "deliveryFee": 49,
-      "openingHours": {
-        "open": "12:00",
-        "close": "00:30"
-      },
+      "openingHours": { "open": "12:00", "close": "00:30" },
       "categories": [
         {
           "id": "cat-1",
@@ -469,7 +538,7 @@
               "price": 190,
               "availableFrom": "12:00",
               "availableTo": "00:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-47.jpg",
               "inStock": true
             },
             {
@@ -478,7 +547,7 @@
               "price": 240,
               "availableFrom": "15:00",
               "availableTo": "00:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-48.jpg",
               "inStock": true
             },
             {
@@ -487,7 +556,7 @@
               "price": 25,
               "availableFrom": "12:00",
               "availableTo": "00:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-49.jpg",
               "inStock": true
             },
             {
@@ -496,7 +565,50 @@
               "price": 40,
               "availableFrom": "12:00",
               "availableTo": "00:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-50.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "6-5",
+              "name": "Chicken Jhal Fry",
+              "price": 220,
+              "availableFrom": "12:30",
+              "availableTo": "00:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-51.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "6-6",
+              "name": "Beef Sheek Kabab (2 pcs)",
+              "price": 210,
+              "availableFrom": "15:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-52.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "6-7",
+              "name": "Raita",
+              "price": 35,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-53.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "6-8",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-54.jpg",
               "inStock": true
             }
           ]
@@ -510,15 +622,12 @@
       "foodItem": "Burger, Fries, Drinks",
       "rating": 4.0,
       "deliveryTime": "28",
-      "imageId": "1550317138-10000687a72b",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-55.jpg",
       "address": "Bashundhara, Dhaka",
       "phone": "+8801700000007",
       "minOrder": 199,
       "deliveryFee": 39,
-      "openingHours": {
-        "open": "11:00",
-        "close": "00:00"
-      },
+      "openingHours": { "open": "11:00", "close": "00:00" },
       "categories": [
         {
           "id": "cat-1",
@@ -531,7 +640,7 @@
               "price": 280,
               "availableFrom": "11:00",
               "availableTo": "00:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-56.jpg",
               "inStock": true
             },
             {
@@ -540,7 +649,7 @@
               "price": 170,
               "availableFrom": "11:00",
               "availableTo": "00:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-57.jpg",
               "inStock": true
             },
             {
@@ -549,7 +658,7 @@
               "price": 160,
               "availableFrom": "11:00",
               "availableTo": "23:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-58.jpg",
               "inStock": true
             },
             {
@@ -558,7 +667,50 @@
               "price": 40,
               "availableFrom": "11:00",
               "availableTo": "00:00",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-59.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "7-5",
+              "name": "Double Chicken Burger",
+              "price": 320,
+              "availableFrom": "11:00",
+              "availableTo": "00:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-60.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "7-6",
+              "name": "BBQ Burger",
+              "price": 300,
+              "availableFrom": "11:00",
+              "availableTo": "00:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-61.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "7-7",
+              "name": "Spicy Fries",
+              "price": 140,
+              "availableFrom": "11:00",
+              "availableTo": "00:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-62.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "7-8",
+              "name": "Cold Coffee",
+              "price": 160,
+              "availableFrom": "12:00",
+              "availableTo": "23:45",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-63.jpg",
               "inStock": true
             }
           ]
@@ -572,15 +724,12 @@
       "foodItem": "Tandoori Chicken, Naan",
       "rating": 4.7,
       "deliveryTime": "32",
-      "imageId": "",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-64.jpg",
       "address": "Gulshan, Dhaka",
       "phone": "+8801700000008",
       "minOrder": 249,
       "deliveryFee": 59,
-      "openingHours": {
-        "open": "12:30",
-        "close": "23:59"
-      },
+      "openingHours": { "open": "12:30", "close": "23:59" },
       "categories": [
         {
           "id": "cat-1",
@@ -593,7 +742,7 @@
               "price": 520,
               "availableFrom": "12:30",
               "availableTo": "23:30",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-65.jpg",
               "inStock": true
             },
             {
@@ -602,16 +751,16 @@
               "price": 35,
               "availableFrom": "12:30",
               "availableTo": "23:59",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-66.jpg",
               "inStock": true
             },
             {
               "pid": "8-3",
-              "name": "Chicken Tikku",
+              "name": "Chicken Tikka",
               "price": 260,
               "availableFrom": "15:00",
               "availableTo": "23:59",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-67.jpg",
               "inStock": true
             },
             {
@@ -620,7 +769,1286 @@
               "price": 30,
               "availableFrom": "12:30",
               "availableTo": "23:59",
-              "imageLink": "https://picsum.photos/200/300",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-68.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "8-5",
+              "name": "Tandoori Chicken (Half)",
+              "price": 290,
+              "availableFrom": "12:30",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-69.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "8-6",
+              "name": "Chicken Malai Boti",
+              "price": 280,
+              "availableFrom": "15:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-70.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "8-7",
+              "name": "Plain Naan",
+              "price": 25,
+              "availableFrom": "12:30",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-71.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "8-8",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "12:30",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-72.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 9,
+      "sponsor": false,
+      "resName": "Kacchi Bhai",
+      "foodItem": "Kacchi, Borhani, Jorda",
+      "rating": 4.6,
+      "deliveryTime": "33",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-73.jpg",
+      "address": "Baily Road, Dhaka",
+      "phone": "+8801700000009",
+      "minOrder": 249,
+      "deliveryFee": 49,
+      "openingHours": { "open": "11:00", "close": "23:30" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "9-1",
+              "name": "Kacchi (Bashmati)",
+              "price": 360,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-74.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "9-2",
+              "name": "Borhani",
+              "price": 70,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-75.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "9-3",
+              "name": "Jorda",
+              "price": 120,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-76.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "9-4",
+              "name": "Chicken Roast",
+              "price": 170,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-77.jpg",
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "9-5",
+              "name": "Mutton Rezala",
+              "price": 280,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-78.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "9-6",
+              "name": "Egg Korma",
+              "price": 90,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-79.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "9-7",
+              "name": "Salad",
+              "price": 40,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-80.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "9-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-81.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 10,
+      "sponsor": true,
+      "resName": "Takeout",
+      "foodItem": "Burgers, Wings, Fries",
+      "rating": 4.4,
+      "deliveryTime": "27",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-82.jpg",
+      "address": "Mohakhali, Dhaka",
+      "phone": "+8801700000010",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": { "open": "11:00", "close": "00:30" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "10-1",
+              "name": "Classic Beef Burger",
+              "price": 290,
+              "availableFrom": "11:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-83.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "10-2",
+              "name": "Chicken Wings (6 pcs)",
+              "price": 260,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-84.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "10-3",
+              "name": "French Fries",
+              "price": 120,
+              "availableFrom": "11:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-85.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "10-4",
+              "name": "Lemonade",
+              "price": 80,
+              "availableFrom": "11:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-86.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "10-5",
+              "name": "Double Beef Burger",
+              "price": 360,
+              "availableFrom": "11:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-87.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "10-6",
+              "name": "Chicken Burger",
+              "price": 240,
+              "availableFrom": "11:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-88.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "10-7",
+              "name": "Onion Rings",
+              "price": 140,
+              "availableFrom": "12:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-89.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "10-8",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "11:00",
+              "availableTo": "00:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-90.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 11,
+      "sponsor": false,
+      "resName": "Herfy",
+      "foodItem": "Burgers, Shawarma, Drinks",
+      "rating": 4.1,
+      "deliveryTime": "31",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-91.jpg",
+      "address": "Farmgate, Dhaka",
+      "phone": "+8801700000011",
+      "minOrder": 179,
+      "deliveryFee": 39,
+      "openingHours": { "open": "10:00", "close": "23:59" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "11-1",
+              "name": "Chicken Shawarma",
+              "price": 190,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-92.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "11-2",
+              "name": "Beef Burger",
+              "price": 260,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-93.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "11-3",
+              "name": "Chicken Nuggets (6 pcs)",
+              "price": 160,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-94.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "11-4",
+              "name": "Cold Coffee",
+              "price": 160,
+              "availableFrom": "11:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-95.jpg",
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "11-5",
+              "name": "Cheese Fries",
+              "price": 170,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-96.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "11-6",
+              "name": "Chicken Burger",
+              "price": 220,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-97.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "11-7",
+              "name": "Chocolate Shake",
+              "price": 180,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-98.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "11-8",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-99.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 12,
+      "sponsor": true,
+      "resName": "Nanna Biriyani",
+      "foodItem": "Biryani, Curry, Drinks",
+      "rating": 4.3,
+      "deliveryTime": "36",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-100.jpg",
+      "address": "Badda, Dhaka",
+      "phone": "+8801700000012",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": { "open": "11:00", "close": "23:00" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "12-1",
+              "name": "Chicken Biryani",
+              "price": 240,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-101.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "12-2",
+              "name": "Beef Tehari",
+              "price": 210,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-102.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "12-3",
+              "name": "Dal",
+              "price": 50,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-103.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "12-4",
+              "name": "Borhani",
+              "price": 60,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-104.jpg",
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "12-5",
+              "name": "Kacchi (Full)",
+              "price": 320,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-105.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "12-6",
+              "name": "Chicken Roast",
+              "price": 160,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-106.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "12-7",
+              "name": "Firni",
+              "price": 90,
+              "availableFrom": "12:00",
+              "availableTo": "22:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-107.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "12-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "11:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-108.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 13,
+      "sponsor": false,
+      "resName": "Handi",
+      "foodItem": "Curry, Rice, Kabab",
+      "rating": 4.2,
+      "deliveryTime": "37",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-109.jpg",
+      "address": "Gulistan, Dhaka",
+      "phone": "+8801700000013",
+      "minOrder": 199,
+      "deliveryFee": 39,
+      "openingHours": { "open": "10:30", "close": "23:30" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "13-1",
+              "name": "Chicken Curry",
+              "price": 220,
+              "availableFrom": "10:30",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-110.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "13-2",
+              "name": "Plain Rice",
+              "price": 45,
+              "availableFrom": "10:30",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-111.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "13-3",
+              "name": "Beef Kabab (2 pcs)",
+              "price": 210,
+              "availableFrom": "12:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-112.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "13-4",
+              "name": "Salad",
+              "price": 40,
+              "availableFrom": "10:30",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-113.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "13-5",
+              "name": "Beef Curry",
+              "price": 260,
+              "availableFrom": "10:30",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-114.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "13-6",
+              "name": "Dal",
+              "price": 50,
+              "availableFrom": "10:30",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-115.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "13-7",
+              "name": "Paratha",
+              "price": 25,
+              "availableFrom": "10:30",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-116.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "13-8",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "10:30",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-117.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 14,
+      "sponsor": true,
+      "resName": "The Manhattan Fish Market",
+      "foodItem": "Fish, Chips, Seafood",
+      "rating": 4.5,
+      "deliveryTime": "34",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-118.jpg",
+      "address": "Gulshan 2, Dhaka",
+      "phone": "+8801700000014",
+      "minOrder": 299,
+      "deliveryFee": 59,
+      "openingHours": { "open": "12:00", "close": "23:30" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "14-1",
+              "name": "Fish & Chips",
+              "price": 520,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-119.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "14-2",
+              "name": "Fried Calamari",
+              "price": 420,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-120.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "14-3",
+              "name": "Seafood Soup",
+              "price": 260,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-121.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "14-4",
+              "name": "Lemonade",
+              "price": 80,
+              "availableFrom": "12:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-122.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "14-5",
+              "name": "Grilled Fish Platter",
+              "price": 650,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-123.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "14-6",
+              "name": "Crispy Prawn",
+              "price": 590,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-124.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "14-7",
+              "name": "French Fries",
+              "price": 120,
+              "availableFrom": "12:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-125.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "14-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "12:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-126.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 15,
+      "sponsor": false,
+      "resName": "KFC",
+      "foodItem": "Fried Chicken, Burger, Fries",
+      "rating": 4.2,
+      "deliveryTime": "29",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-127.jpg",
+      "address": "Uttara, Dhaka",
+      "phone": "+8801700000015",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": { "open": "10:00", "close": "23:59" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "15-1",
+              "name": "Fried Chicken (2 pcs)",
+              "price": 220,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-128.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "15-2",
+              "name": "Zinger Burger",
+              "price": 260,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-129.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "15-3",
+              "name": "French Fries",
+              "price": 120,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-130.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "15-4",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-131.jpg",
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "15-5",
+              "name": "Chicken Popcorn",
+              "price": 180,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-132.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "15-6",
+              "name": "Hot Wings (6 pcs)",
+              "price": 260,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-133.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "15-7",
+              "name": "Coleslaw",
+              "price": 60,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-134.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "15-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-135.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 16,
+      "sponsor": true,
+      "resName": "Domino's Pizza",
+      "foodItem": "Pizza, Pasta, Sides",
+      "rating": 4.3,
+      "deliveryTime": "32",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-136.jpg",
+      "address": "Banani, Dhaka",
+      "phone": "+8801700000016",
+      "minOrder": 299,
+      "deliveryFee": 59,
+      "openingHours": { "open": "11:00", "close": "23:59" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "16-1",
+              "name": "Pepperoni Pizza (12\")",
+              "price": 699,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-137.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "16-2",
+              "name": "BBQ Chicken Pizza (12\")",
+              "price": 749,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-138.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "16-3",
+              "name": "Garlic Bread",
+              "price": 160,
+              "availableFrom": "11:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-139.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "16-4",
+              "name": "Coke (500ml)",
+              "price": 40,
+              "availableFrom": "11:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-140.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "16-5",
+              "name": "Margherita Pizza (12\")",
+              "price": 599,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-141.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "16-6",
+              "name": "Chicken Pasta",
+              "price": 380,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-142.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "16-7",
+              "name": "Chicken Wings (6 pcs)",
+              "price": 260,
+              "availableFrom": "12:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-143.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "16-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "11:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-144.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 17,
+      "sponsor": false,
+      "resName": "Nando's",
+      "foodItem": "Peri-Peri Chicken, Grill",
+      "rating": 4.6,
+      "deliveryTime": "35",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-145.jpg",
+      "address": "Gulshan, Dhaka",
+      "phone": "+8801700000017",
+      "minOrder": 299,
+      "deliveryFee": 59,
+      "openingHours": { "open": "12:00", "close": "23:00" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "17-1",
+              "name": "Peri-Peri Chicken (Half)",
+              "price": 520,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-146.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "17-2",
+              "name": "Peri Fries",
+              "price": 160,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-147.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "17-3",
+              "name": "Grilled Chicken Wrap",
+              "price": 290,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-148.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "17-4",
+              "name": "Lemon & Herb Sauce",
+              "price": 30,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-149.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "17-5",
+              "name": "Peri-Peri Chicken (Full)",
+              "price": 950,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-150.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "17-6",
+              "name": "Garlic Bread",
+              "price": 160,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-151.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "17-7",
+              "name": "Coleslaw",
+              "price": 60,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-152.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "17-8",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "12:00",
+              "availableTo": "23:00",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-153.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 18,
+      "sponsor": true,
+      "resName": "Popeyes",
+      "foodItem": "Fried Chicken, Sandwich",
+      "rating": 4.4,
+      "deliveryTime": "30",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-154.jpg",
+      "address": "Bashundhara, Dhaka",
+      "phone": "+8801700000018",
+      "minOrder": 199,
+      "deliveryFee": 49,
+      "openingHours": { "open": "10:00", "close": "23:59" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "18-1",
+              "name": "Chicken Sandwich",
+              "price": 260,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-155.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "18-2",
+              "name": "Fried Chicken (2 pcs)",
+              "price": 220,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-156.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "18-3",
+              "name": "French Fries",
+              "price": 120,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-157.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "18-4",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-158.jpg",
+              "inStock": false
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "18-5",
+              "name": "Spicy Wings (6 pcs)",
+              "price": 260,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-159.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "18-6",
+              "name": "Chicken Popcorn",
+              "price": 180,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-160.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "18-7",
+              "name": "Coleslaw",
+              "price": 60,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-161.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "18-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "10:00",
+              "availableTo": "23:59",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-162.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 19,
+      "sponsor": false,
+      "resName": "Sushi Tei",
+      "foodItem": "Sushi, Japanese, Ramen",
+      "rating": 4.5,
+      "deliveryTime": "42",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-163.jpg",
+      "address": "Gulshan, Dhaka",
+      "phone": "+8801700000019",
+      "minOrder": 349,
+      "deliveryFee": 69,
+      "openingHours": { "open": "12:00", "close": "22:30" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "19-1",
+              "name": "Salmon Sushi (6 pcs)",
+              "price": 520,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-164.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "19-2",
+              "name": "Chicken Ramen",
+              "price": 420,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-165.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "19-3",
+              "name": "Tempura",
+              "price": 360,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-166.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "19-4",
+              "name": "Green Tea",
+              "price": 90,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-167.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "19-5",
+              "name": "California Roll",
+              "price": 420,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-168.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "19-6",
+              "name": "Beef Teriyaki",
+              "price": 520,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-169.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "19-7",
+              "name": "Miso Soup",
+              "price": 160,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-170.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "19-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "12:00",
+              "availableTo": "22:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-171.jpg",
+              "inStock": true
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "id": 20,
+      "sponsor": true,
+      "resName": "BFC",
+      "foodItem": "Fried Chicken, Burger, Rice",
+      "rating": 4.0,
+      "deliveryTime": "33",
+      "imageId": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-172.jpg",
+      "address": "Chittagong Road, Dhaka",
+      "phone": "+8801700000020",
+      "minOrder": 179,
+      "deliveryFee": 39,
+      "openingHours": { "open": "10:00", "close": "23:30" },
+      "categories": [
+        {
+          "id": "cat-1",
+          "type": "RECOMMENDED",
+          "title": "Recommended",
+          "products": [
+            {
+              "pid": "20-1",
+              "name": "Fried Chicken (2 pcs)",
+              "price": 210,
+              "availableFrom": "10:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-173.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "20-2",
+              "name": "Chicken Burger",
+              "price": 220,
+              "availableFrom": "10:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-174.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "20-3",
+              "name": "Chicken Fried Rice",
+              "price": 260,
+              "availableFrom": "11:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-175.jpg",
+              "inStock": false
+            },
+            {
+              "pid": "20-4",
+              "name": "Soft Drink",
+              "price": 40,
+              "availableFrom": "10:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-176.jpg",
+              "inStock": true
+            }
+          ]
+        },
+        {
+          "id": "cat-2",
+          "type": "POPULAR",
+          "title": "Popular",
+          "products": [
+            {
+              "pid": "20-5",
+              "name": "Spicy Wings (6 pcs)",
+              "price": 260,
+              "availableFrom": "10:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-177.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "20-6",
+              "name": "Chicken Popcorn",
+              "price": 180,
+              "availableFrom": "10:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-178.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "20-7",
+              "name": "Coleslaw",
+              "price": 60,
+              "availableFrom": "10:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-179.jpg",
+              "inStock": true
+            },
+            {
+              "pid": "20-8",
+              "name": "Mineral Water",
+              "price": 25,
+              "availableFrom": "10:00",
+              "availableTo": "23:30",
+              "imageLink": "https://debbrotokumark.github.io/ImageBox/fast-food/fast-food-180.jpg",
               "inStock": true
             }
           ]
